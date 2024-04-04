@@ -6,7 +6,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
- {
+  {
     import = "astrocommunity.colorscheme.everforest",
     enabled = true,
   },
@@ -31,6 +31,7 @@ return {
   { import = "astrocommunity.pack.typescript-all-in-one", enabled = true },
   { import = "astrocommunity.pack.vue", enabled = true },
   { import = "astrocommunity.pack.bash", enabled = true },
+  { import = "astrocommunity.pack.elixir-phoenix", enabled = true },
   { import = "astrocommunity.completion.codeium-vim", enabled = true },
   -- import/override with your plugins folder
 }
