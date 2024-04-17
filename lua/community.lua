@@ -33,5 +33,7 @@ return {
   { import = "astrocommunity.pack.bash", enabled = true },
   { import = "astrocommunity.pack.elixir-phoenix", enabled = true },
   { import = "astrocommunity.completion.codeium-vim", enabled = true },
+  { import = "astrocommunity.pack.gleam", enabled = true },
+  { import = "astrocommunity.programming-language-support.rest-nvim", enabled = true },
   -- import/override with your plugins folder
 }
