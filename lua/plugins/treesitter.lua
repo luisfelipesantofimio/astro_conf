@@ -8,11 +8,11 @@ return {
     opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
       "lua",
       "vim",
-      -- add more arguments for adding more treesitter parsers
+      "elixir",
     })
 
-    opts.ensure_installed = require("astrocore").list_insert_unique(opts.ignore_install, {
-      "dart"
+    opts.ignore_install = require("astrocore").list_insert_unique(opts.ignore_install, {
+      "dart",
     })
   end,
 }
