@@ -80,4 +80,13 @@ return {
       )
     end,
   },
+
+  -- Custom filetypes parsing for arb files
+  {
+    vim.filetype.add {
+      extension = {
+        arb = "json",
+      },
+    },
+  },
 }

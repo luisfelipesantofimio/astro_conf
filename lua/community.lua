@@ -16,7 +16,7 @@ return {
   { import = "astrocommunity.colorscheme.kanagawa-nvim", enabled = true },
   { import = "astrocommunity.colorscheme.catppuccin", enabled = true },
   { import = "astrocommunity.colorscheme.sonokai", enabled = true },
-  { import = "astrocommunity.pack.dart", enabled = true },
+  -- { import = "astrocommunity.pack.dart", enabled = true },
   { import = "astrocommunity.pack.astro", enabled = true },
   { import = "astrocommunity.pack.go", enabled = true },
   { import = "astrocommunity.pack.html-css", enabled = true },
@@ -34,6 +34,6 @@ return {
   { import = "astrocommunity.pack.elixir-phoenix", enabled = true },
   { import = "astrocommunity.completion.codeium-vim", enabled = true },
   { import = "astrocommunity.pack.gleam", enabled = true },
-  { import = "astrocommunity.programming-language-support.rest-nvim", enabled = true },
+  { import = "astrocommunity.pack.templ", enabled = true },
   -- import/override with your plugins folder
 }
