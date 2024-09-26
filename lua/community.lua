@@ -21,7 +21,6 @@ return {
   { import = "astrocommunity.pack.go", enabled = true },
   { import = "astrocommunity.pack.html-css", enabled = true },
   { import = "astrocommunity.pack.json", enabled = true },
-  { import = "astrocommunity.pack.julia", enabled = true },
   { import = "astrocommunity.pack.godot", enabled = true },
   { import = "astrocommunity.pack.markdown", enabled = true },
   { import = "astrocommunity.pack.python", enabled = true },
